@@ -1,1 +1,1 @@
-# bubi
+# weather-app
