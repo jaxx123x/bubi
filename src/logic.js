@@ -1,10 +1,8 @@
-//logic.js
 import { DOM } from "./dom.js";
 
 export const dayManager = {
     days: []
 }
-
 
 class currentDay {
   constructor(dayTemp, nightTemp, temp, humidity, precipitation, forHours, location, hour, icon, id, datetime) {
@@ -42,9 +40,6 @@ export const time = function() {
     return hour;
 };
 
-
-
-
 export async function getLocation() {
   function getCurrentPositionPromise() {
     return new Promise((resolve, reject) => {
@@ -73,7 +68,6 @@ export async function getLocation() {
   }
 }
 
-
 export async function getWeather(city) {
   const location = await fetch(
     `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?key=G6M7JFRQTGQL4S2BAE4XY46J5`,
@@ -81,7 +75,6 @@ export async function getWeather(city) {
   const json = await location.json();
   return json;
 }
-
 
 export async function locationToJson(locationName) {
 const result = await getWeather(locationName);
@@ -121,9 +114,7 @@ const result = await getWeather(locationName);
     );
     thisDay.pushIn();
   }
-  
 };
-
 
 export async function searchBar() {
   

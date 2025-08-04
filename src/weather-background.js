@@ -30,13 +30,13 @@ const weatherMessages = {
     'partly-cloudy-day': 'Sunt cativa norisori pe-afara... nu stiu ce sa zic pentru asta... dar ai castigat un pupic. 😅(5)',
     'partly-cloudy-night': 'Buuuuub, de ce cauti iar vremea noaptea? Sunt cativa norisori si iar nu stiu ce sa zic... ai castigat un pupic! 😘(6)',
     'overcast': 'Chiar daca e gri afara, tu esti pata mea de culoare azi. ❤️(7)',
-    'rain': 'E posibil sa ploua acum... Daca ploua, uita-te pe geam. Fiecare picatura de ploaie e un „te iubesc” de la mine. 🥰(8)',
+    'rain': 'E posibil sa ploua acum... Daca ploua, uita-te pe geam. Fiecare picatura de ploaie e un „te iubesc" de la mine. 🥰(8)',
     'showers-day': 'Ploaia vine si pleaca azi… dar gandul la tine ramane constant, ca o raza in toata umezeala asta. ❤️(9)',
     'showers-night': 'Noapte cu ploaie... linistita. Si in toata linistea asta, singurul gand care se repeta e numele tau. Ai castigat 10 pupici! (10)',
     'thunderstorm': 'Uita-te pe geam... toate fulgerele combinate nu-s la fel de luminoase ca intensitatea cu care te iubesc eu 🥰❤️(11)',
     'heavy-rain': 'Ploua tare, dar dragostea mea e si mai puternica. 🥰 Te iubesc, bubi! Ai castigat 15 pupici! 🌧️💕(12)',
     'snow': 'Mama, bub, daca inca verifici aici... verifici de ceva timp... ninge afara, ai castigat un pupicel. ❄️😅(13)',
-    'snow-showers-day': 'Pentru fiecare fulgulet de zapada pe care il vezi azi, e un „te iubesc” de la mine ❤️ Daca nu vezi niciunul, ai castigat 5 pupicei extra! (14)',
+    'snow-showers-day': 'Pentru fiecare fulgulet de zapada pe care il vezi azi, e un „te iubesc" de la mine ❤️ Daca nu vezi niciunul, ai castigat 5 pupicei extra! (14)',
     'snow-showers-night': 'Mamaa bubi te uiti asa tarziu la vreme 😅 E frigut, vrei sa vin sa te incalzesc putin ? (15)',
     'sleet': 'Vrei sa te incalzesc oleaca? Fac pariu ca ti-e frigut 😅 te iubiiii(16)',
     'drizzle': 'Bub vreme din asta ii rara.. daca ai nimerit-o, ai 5 pupici de aia dulci dulci dulci(17)',
@@ -44,7 +44,6 @@ const weatherMessages = {
     'wind': 'Vezi sa nu te ia vantu pe sus bub.. Siiiii ai castigat 10 pupicieeei! 🥰(19)',
     'squalls': 'Orice ar fi afara, tu esti linistea mea! ❤️(20)',
 };
-
 
 const BASE_PATH = '/weather-app/';
 
